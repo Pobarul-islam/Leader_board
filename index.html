@@ -46,8 +46,8 @@
     <!-- Top player Section  -->
 
 <section class="container bg-white">
-  <div>
-    <h4 class="my-4">Top Player</h4>
+  <div id="players">
+    <h4 id="topPlayers" class="my-4 fw-bold">Top Players</h4>
     <div class="row gy-5 pb-3 d-flex justify-content-center">
       <div class="col-12 col-md-6 col-lg-4  d-flex align-items-center">
         <img width="56" src="images/images/players/player-1.png" alt="">
@@ -80,7 +80,7 @@
   <!--  Blog section  -->
 
   <div class="container">
-    <h4 class="text-primary">Top Blogs</h4>
+    <h4 id="topblogs" class=" fw-bold" >Top Blogs 2022</h4>
   </div>
   <div class="row g-3">
     <div class="col-lg-6 d-flex">
@@ -211,9 +211,26 @@
 
    </div>
  </div>
+
+ <section>
+  <!-- ul list create in js  -->
+
+    <input type="text" id="to-do">
+    <button onclick="listbutton()">Click Me</button>
+    <ul id="myList">
+      <li>Jama Kapor</li>
+      <li>Tel saban</li>
+      <li>Bari gari</li>
+    </ul>
+
 </section>
+</section>
+
+
+
 
  <!-- javascript link  -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
